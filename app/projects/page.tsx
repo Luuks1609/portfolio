@@ -48,8 +48,8 @@ export default function Work() {
         </h2>
         <p className="">
           Alongside my studies, I pursued freelance projects driven by my
-          passion for development. Here are some projects I've had the pleasure
-          to work on.
+          passion for development. Here are some projects I&apos;ve had the
+          pleasure to work on.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
       </div>

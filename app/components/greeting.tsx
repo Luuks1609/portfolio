@@ -8,10 +8,10 @@ export default function Greeting() {
       </div>
       <div className="basis-2/3">
         <h1 className="mb-8 text-2xl font-medium tracking-tighter">
-          hey, I'm lucas 👋
+          hey, I&apos;m lucas 👋
         </h1>
         <p className="">
-          I'd like to describe myself as a passionate and entrepreneurial
+          I&apos;d like to describe myself as a passionate and entrepreneurial
           (frontend) developer. My work ethic is hardworking and goal-oriented.
           I strive to keep developing my skills and to take on new challenges.
         </p>

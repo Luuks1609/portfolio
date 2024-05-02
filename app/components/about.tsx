@@ -8,8 +8,8 @@ export default function About() {
     <div className="py-4">
       <p className="">
         My work varies from developing my startup ideas, building websites for
-        freelance clients, or creating fun side projects. I'm always looking for
-        new opportunities to learn and grow.
+        freelance clients, or creating fun side projects. I&apos;m always
+        looking for new opportunities to learn and grow.
       </p>
       <div className="my-8 gap-2 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5">
         <Tech icon="/next.svg" url="https://nextjs.org/" />

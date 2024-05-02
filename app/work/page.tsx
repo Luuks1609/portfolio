@@ -45,13 +45,13 @@ export default function Work() {
         <h2 className="font-medium text-2xl mb-8 tracking-tighter">my work</h2>
         <p className="">
           Venturing through my career path, where each experience has shaped my
-          skills and fueled my passion for creating exiting solutions. Here's a
-          look at the projects I've been a part of.
+          skills and fueled my passion for creating exiting solutions.
+          Here&apos;s a look at the projects I&apos;ve been a part of.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
       </div>
       {work.map((job, index) => (
-        <div className="">
+        <div key={index}>
           <h2 className="font-medium text-xl mb-1 tracking-tighter">
             {job.company}
           </h2>
