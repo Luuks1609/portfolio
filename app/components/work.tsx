@@ -62,6 +62,7 @@ export default function Work() {
 		<Swiper
 			slidesPerView={"auto"}
 			spaceBetween={30}
+			freeMode={true}
 			loop={true}
 			autoplay={{
 				delay: 2500,
