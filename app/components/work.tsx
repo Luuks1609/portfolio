@@ -13,45 +13,46 @@ import Image from "next/image";
 
 const slides = [
 	{
-		img: "/screenshots/koningsvogel.svg",
+		img: "/projects/koningsvogel.svg",
 		alt: "Koningsvogel",
 	},
 	{
-		img: "/screenshots/dronesecurity.svg",
+		img: "/projects/dronesecurity.svg",
 		alt: "DroneSecurity",
 		url: "https://dronesecurity.nl",
 	},
 
 	{
-		img: "/screenshots/isospect.svg",
+		img: "/projects/isospect.svg",
 		alt: "Isospect",
 		url: "https://isospect.nl",
 	},
 	{
-		img: "/screenshots/isospect-portal.svg",
+		img: "/projects/isospect-portal.svg",
 		alt: "Isospect Portal",
+		url: "test",
 	},
 	{
-		img: "/screenshots/maisonlepuy.svg",
+		img: "/projects/maisonlepuy.svg",
 		alt: "MaisonlePuy",
 		url: "https://maisonlepuy.nl",
 	},
 	{
-		img: "/screenshots/qrspot.svg",
+		img: "/projects/qrspot.svg",
 		alt: "QRSpot",
 	},
 	{
-		img: "/screenshots/qrspot-app.svg",
+		img: "/projects/qrspot-ios.svg",
 		alt: "QRSpot App",
 	},
 	{
-		img: "/screenshots/loveforpets.svg",
+		img: "/projects/loveforpets.svg",
 		alt: "Love For Pets",
 		url: "https://loveforpets.nl",
 	},
 
 	{
-		img: "/screenshots/antivlam-urenregistratie.svg",
+		img: "/projects/antivlam-urenregistratie.svg",
 		alt: "Antivlam Urenregistratie",
 	},
 ];
@@ -61,6 +62,7 @@ export default function Work() {
 		<Swiper
 			slidesPerView={"auto"}
 			spaceBetween={30}
+			loop={true}
 			autoplay={{
 				delay: 2500,
 				disableOnInteraction: false,
