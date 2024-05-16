@@ -1,5 +1,5 @@
 import { Link } from "@nextui-org/react";
-import { GraduationCap, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const items = [
 	{

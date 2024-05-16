@@ -57,7 +57,7 @@ export default function Work() {
 				<hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 			</div>
 			<div className="gap-2 grid grid-cols-12 grid-rows-4 gap-y-10 sm:gap-y-2">
-				<Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
+				<Card className="w-full h-[300px] col-span-12 sm:col-span-5 hover:-translate-y-3">
 					<CardHeader className="absolute z-10 top-1 flex-col items-start">
 						<p className="text-tiny text-black/65 ">NextJS & Sanity website</p>
 						<h4 className="text-black font-medium text-2xl">Koningsvogel.nl</h4>
@@ -69,7 +69,7 @@ export default function Work() {
 						src={slides[0].img}
 					/>
 				</Card>
-				<Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-7">
+				<Card className="w-full h-[300px] col-span-12 sm:col-span-7">
 					<CardHeader className="absolute z-10 top-1 flex-col items-start">
 						<p className="text-tiny text-black/65 ">Wordpress & Divi website</p>
 						<h4 className="text-black font-medium text-2xl">Dronesecurity.nl</h4>
@@ -81,7 +81,7 @@ export default function Work() {
 						src={slides[1].img}
 					/>
 				</Card>
-				<Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-7">
+				<Card className="w-full h-[300px] col-span-12 sm:col-span-7">
 					<CardHeader className="absolute z-10 top-1 flex-col items-start">
 						<p className="text-tiny text-black/65 ">NextJS & Supabase webapp</p>
 						<h4 className="text-black font-medium text-2xl">Isospect Portal</h4>
@@ -93,7 +93,7 @@ export default function Work() {
 						src={slides[3].img}
 					/>
 				</Card>
-				<Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
+				<Card className="w-full h-[300px] col-span-12 sm:col-span-5">
 					<CardHeader className="absolute z-10 top-1 flex-col items-start">
 						<p className="text-tiny text-black/65 ">NextJS & TailwindCSS website</p>
 						<h4 className="text-black font-medium text-2xl">Isospect.nl</h4>
