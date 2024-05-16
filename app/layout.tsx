@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
+import Socials from "./components/socials";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,12 @@ export default function RootLayout({
 			<body
 				className={`${inter.className} antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mx-auto`}
 			>
-				<Providers>{children}</Providers>
+				<Providers>
+					<div className="flex flex-col">
+						{children}
+						<Socials />
+					</div>
+				</Providers>
 			</body>
 		</html>
 	);

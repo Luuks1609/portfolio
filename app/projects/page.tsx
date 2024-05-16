@@ -56,7 +56,7 @@ export default function Work() {
 				</p>
 				<hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 			</div>
-			<div className="gap-2 grid grid-cols-12 grid-rows-5 gap-y-10 sm:gap-y-2">
+			<div className="gap-2 grid grid-cols-12 grid-rows-4 gap-y-10 sm:gap-y-2">
 				<Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
 					<CardHeader className="absolute z-10 top-1 flex-col items-start">
 						<p className="text-tiny text-black/65 ">NextJS & Sanity website</p>
