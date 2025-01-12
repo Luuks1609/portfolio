@@ -31,25 +31,13 @@ export default function Work() {
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
-          {slide.url ? (
-            <a href={slide.url} target="_blank">
-              <Image
-                alt="Card background"
-                className="w-full h-full object-cover rounded-xl hover:-translate-y-4 duration-300"
-                src={slide.img}
-                height={100}
-                width={1000}
-              />
-            </a>
-          ) : (
-            <Image
-              alt="Card background"
-              className="w-full h-full object-cover rounded-xl"
-              src={slide.img}
-              height={100}
-              width={1000}
-            />
-          )}
+          <Image
+            alt="Card background"
+            className="w-full h-full object-cover rounded-xl hover:-translate-y-4 duration-300"
+            src={slide.img}
+            height={100}
+            width={1000}
+          />
         </SwiperSlide>
       ))}
     </Swiper>

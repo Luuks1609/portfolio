@@ -16,7 +16,7 @@ export default function Socials() {
       <Link
         className="flex gap-x-1 items-center"
         color="foreground"
-        href="mailto:email@lucasvandersloot.nl"
+        href="mailto:luuks1609@gmail.com"
         target="_blank"
       >
         <ArrowUpRight className="text-neutral-300" size={20} />
