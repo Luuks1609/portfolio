@@ -23,7 +23,7 @@ const languages: Language[] = [
   {
     label: "Dutch",
     value: 100,
-    tooltip: "Fluent in my native langue Dutch",
+    tooltip: "Fluent in my native language Dutch",
   },
   {
     label: "English",
@@ -32,7 +32,7 @@ const languages: Language[] = [
   },
   {
     label: "Spanish",
-    value: 15,
+    value: 35,
     tooltip: `${streak} days of Duolingo streak! 🎉`,
   },
 ];
