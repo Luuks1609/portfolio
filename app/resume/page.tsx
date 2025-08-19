@@ -1,3 +1,4 @@
+import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import Navbar from "../components/navbar";
 
 interface Work {
@@ -46,34 +47,38 @@ const work: Work[] = [
 
 export default function Work() {
   return (
-    <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-      <Navbar />
-      <div className="">
-        <h2 className="font-medium text-2xl mb-8 tracking-tighter">my work</h2>
-        <p className="">
-          In addition to my freelance work, which I have been doing in since
-          2018, I have had the privilege of contributing to the following
-          companies during my internships.
-        </p>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-      </div>
-      {work.map((job, index) => (
-        <div key={index}>
-          <a
-            href={job.url}
-            target="_blank"
-            className="font-medium text-xl tracking-tighter border-b-2"
-          >
-            {job.company}
-          </a>
-          <p className="text-neutral-400 text-sm mb-3 pt-1">
-            {job.title}
-            {job.date && ", " + job.date}
+    <main className="w-full">
+      <MaxWidthWrapper>
+        <Navbar />
+        <div className="">
+          <h2 className="font-medium text-2xl mb-8 tracking-tighter">
+            my work
+          </h2>
+          <p className="">
+            In addition to my freelance work, which I have been doing in since
+            2018, I have had the privilege of contributing to the following
+            companies during my internships.
           </p>
-          <p className="">{job.description}</p>
           <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         </div>
-      ))}
+        {work.map((job, index) => (
+          <div key={index}>
+            <a
+              href={job.url}
+              target="_blank"
+              className="font-medium text-xl tracking-tighter border-b-2"
+            >
+              {job.company}
+            </a>
+            <p className="text-neutral-400 text-sm mb-3 pt-1">
+              {job.title}
+              {job.date && ", " + job.date}
+            </p>
+            <p className="">{job.description}</p>
+            <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+          </div>
+        ))}
+      </MaxWidthWrapper>
     </main>
   );
 }

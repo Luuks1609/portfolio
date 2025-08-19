@@ -19,7 +19,7 @@ const items = [
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center pb-12">
+    <div className="flex justify-between items-center pb-12 my-16">
       <ul className="flex  gap-x-4">
         {items.map((item) => (
           <Link
